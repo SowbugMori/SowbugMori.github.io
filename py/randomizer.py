@@ -9,8 +9,9 @@ def get_items(quantity):
 
     # Random Items
     quantity = int(Element('quantity-input').element.value)
-    if quantity > 14:
-        quantity=14
+    if quantity > 22:
+        alert('Quantity too high.')
+        quantity=22
 
     decided_items = random.sample(Items,k=quantity)
 
