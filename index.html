@@ -27,21 +27,25 @@
                 <h1>Phasmorandomizer</h1>
             </div>
             <div class="quantity">
-                <p >Item quantity:</p><input type="number" step="1" min="0" max="22" id="quantity-input"/>
+                <p >Item quantity:</p><input type="number" step="1" min="0" max="14" id="quantity-input"/>
             </div>
             <button id="get_items" class = "btn btn-primary" type = "submit" pys-onClick="get_items">Randomize</button>
+            <button id="get_challenge" class = "btn btn-primary" type = "submit" pys-onClick="get_challenge">Challenge</button>
             <div class="result">
                 <div id="items_div"></div>
                 <div id="map_div"></div>
                 <div id="diff_div"></div>
+            </div>
+            <div class="challengeresult">
+                <div id="title_div"></div>
+                <div id="desc_div"></div>
             </div>
         </div>
 
         <py-script src="py/randomizer.py"></py-script>
 
         <div class='footer'>
-            <footer>Phasmophobia is a registered trademark of Kinetic Games. Trademarks are the property of their respective owners. Game materials copyright Kinetic Games. Kinetic Games has not endorsed and is not responsible for this site or its content. October Crow Font by Chad Savage.</footer>
-            <footer style="text-align:center;">SowbugMori 2022 | View on <a href="https://github.com/SowbugMori/SowbugMori.github.io">Github</a></footer>
+            <footer>Phasmophobia is a registered trademark of Kinetic Games. Trademarks are the property of their respective owners. Game materials copyright Kinetic Games. Kinetic Games has not endorsed and is not responsible for this site or its content. October Crow Font by Chad Savage. Site sloppily made by Sowbug :)</footer>
         </div>
     </body>
 </html>
