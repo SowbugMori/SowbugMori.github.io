@@ -1,7 +1,8 @@
 import js
-from js import alert
+# from js import alert
 import random
 from item_list import Items, Maps, Difficulty
+from challenges import Challenge
 
 separator = ', '
 
@@ -9,9 +10,8 @@ def get_items(quantity):
 
     # Random Items
     quantity = int(Element('quantity-input').element.value)
-    if quantity > 22:
-        alert('Quantity too high.')
-        quantity=22
+    if quantity > 14:
+        quantity=14
 
     decided_items = random.sample(Items,k=quantity)
 
@@ -27,3 +27,8 @@ def get_items(quantity):
     pyscript.write("items_div", separator.join(map(str, decided_items)))
     pyscript.write("map_div", decided_map)
     pyscript.write("diff_div", decided_diff)
+
+def get_challenge(self):
+    title, desc = random.choice(list(Challenge.items()))
+    pyscript.write("title_div", title)
+    pyscript.write("desc_div", desc)
