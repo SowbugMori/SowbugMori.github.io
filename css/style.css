@@ -51,7 +51,15 @@ html {
     flex-direction: row;
     text-align: center;
     flex-wrap: wrap;
-    padding: 5%
+    padding: 5%;
+    }
+
+.challengeresult {
+    display: flex;
+    font-size: 36px;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
     }
 
 p {
@@ -62,11 +70,11 @@ p {
     font-family: "OctoberCrow";
     width:auto;
     padding-right: 5%;
-}
+    }
 
 .quantity {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     display: flex;
     align-self: center;
-}
+    }
