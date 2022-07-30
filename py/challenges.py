@@ -4,5 +4,5 @@ Challenge = {
     'The Irate Investigator': 'Immediately interact with the cursed object when found until a cursed hunt begins.',
     'Autopilot Disengaged': 'Do not take photos, pick up bones, interact with cursed objects, or collect keys.',
     'Maid Dress Monday': 'Return all equipment brought in to the house.',
-    'Analog Horro': 'Investigate using no electronic equipment',
+    'Analog Horror': 'Investigate using no electronic equipment',
 }
