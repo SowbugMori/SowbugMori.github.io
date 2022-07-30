@@ -23,11 +23,11 @@
     <body>
         <div class = "flex-container">
             <div class = "header">
-                <img src = "img/logo.png" width=128px>
+                <img src = "img/logo.png">
                 <h1>Phasmorandomizer</h1>
             </div>
             <div class="quantity">
-                <p >Item quantity:</p><input type="number" step="1" min="0" max="14" id="quantity-input"/>
+                <p >Item quantity:</p><input type="number" step="1" min="0" max="22" maxlength="2" id="quantity-input" size="5"/>
             </div>
             <button id="get_items" class = "btn btn-primary" type = "submit" pys-onClick="get_items">Randomize</button>
             <button id="get_challenge" class = "btn btn-primary" type = "submit" pys-onClick="get_challenge">Challenge</button>

@@ -1,5 +1,5 @@
 import js
-# from js import alert
+from js import alert
 import random
 from item_list import Items, Maps, Difficulty
 from challenges import Challenge
@@ -10,8 +10,9 @@ def get_items(quantity):
 
     # Random Items
     quantity = int(Element('quantity-input').element.value)
-    if quantity > 14:
-        quantity=14
+    if quantity > 22:
+        alert(f'Max equipment quantity is 22.')
+        quantity=22
 
     decided_items = random.sample(Items,k=quantity)
 
