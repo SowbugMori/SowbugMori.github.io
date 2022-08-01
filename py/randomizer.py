@@ -1,7 +1,9 @@
 import js
 from js import alert
 import random
-from item_list import Items, Maps, Difficulty
+from threading import Thread
+
+from equipment import Items, Maps, Difficulty
 from challenges import Challenge
 
 separator = ', '
@@ -10,12 +12,14 @@ def get_items(quantity):
 
     # Random Items
     quantity = int(Element('quantity-input').element.value)
-    if quantity > 22:
+    if quantity < 0:
+        alert(f'Minimum equipment quantity is 0.')
+        quantity=0
+    elif quantity > 22:
         alert(f'Max equipment quantity is 22.')
         quantity=22
 
     decided_items = random.sample(Items,k=quantity)
-
 
     # Random Map
     decided_map = str(random.choice(Maps))
@@ -24,7 +28,6 @@ def get_items(quantity):
     decided_diff = str(random.choice(Difficulty))
 
     # Debug
-    #print("Items: ",decided_items, "Map: ",decided_map, "Diff: ",decided_diff)
     pyscript.write("items_div", separator.join(map(str, decided_items)))
     pyscript.write("map_div", decided_map)
     pyscript.write("diff_div", decided_diff)
