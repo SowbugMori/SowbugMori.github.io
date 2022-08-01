@@ -1,6 +1,6 @@
 # Phasmorandomizer
 
-~~ The code is abysmal and not in a self-depricating way this time. ~~ Actually kind of proud with how it looks now.
+~~The code is abysmal and not in a self-depricating way this time.~~ Actually kind of proud with how it looks now.
 
 Threw this bad boy together in a few days. Fairly straight forward. You can input a certain quantity of equipment you would like for the randomizer to draw from (min: 0, max: 22), and it will randomize what equipment you get, what map you investigate on, and the difficulty of the investigation. I also wanted to include a challenge randomizer, so you can choose to randomize a challenge if you'd like. 
 
