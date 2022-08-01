@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>Phasmorandomizer</title>
+        <link rel="icon" type="image" href="img/favicon-32x32.png" />
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+        <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+        <style>
+            @font-face {
+            font-family: 'OctoberCrow';
+            src:  url('font/October_Crow.ttf')
+        }
+        </style>
+        <py-env>
+        - paths:
+            - /py/equipment.py
+            - /py/challenges.py
+        </py-env>
+    </head>
+    <body>
+        <py-script src="py/randomizer.py"></py-script>
+        <div class="container">
+
+            <div class="header">
+                <img src="img\logo.png" class="logo">
+                Phasmorandomizer
+                <p class="version">V 1.1</p>
+            </div>
+
+            <div class="inputcontent">
+                Item quantity: <input type="number" step="1" min="0" max="22" maxlength="2" id="quantity-input" size="1" class="inputquantity"/>
+                <div>
+                    <button id="get_items" class = "btn btn-primary" type = "submit" pys-onClick="get_items">Randomize Items</button>
+                    <button id="get_challenge" class = "btn btn-primary" type = "submit" pys-onClick="get_challenge">Randomize Challenge</button>
+                </div>
+            </div>
+
+            <div class="content">
+                <div id="items_div">[Equipment]</div>
+                <div id="map_div">[Location]</div>
+                <div id="diff_div">[Difficulty]</div>
+            </div>
+
+            <div class="challenge">
+                <div id="title_div">[Challenge]</div>
+                <div id="desc_div">...</div>
+            </div>
+
+            <div class="footer">
+                Phasmophobia is a registered trademark of Kinetic Games. Trademarks are the property of their respective owners. Game materials copyright Kinetic Games. Kinetic Games has not endorsed and is not responsible for this site or its content. October Crow Font by Chad Savage.
+                SowbugMori 2022 | Running on PyScript
+            </div>
+
+        </div>
+    </body>
+</html>
