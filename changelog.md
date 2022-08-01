@@ -1,4 +1,4 @@
-#Version 1.1.0
+# Version 1.1.0
   - Complete CSS/HTML overhaul
     - Text and images are more responsive
     - Added borders between certain elements for cluttering
