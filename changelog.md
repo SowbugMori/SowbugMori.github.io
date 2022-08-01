@@ -11,5 +11,5 @@
   - Alert added for numbers below 0, this will immediately default to 0 items
   - Fixed alert for numbers above 22, this will immediately default to 22 items
 
-#Ver 1.0.0
+# Version 1.0.0
   - Initial Commit
