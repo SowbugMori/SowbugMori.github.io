@@ -1,4 +1,4 @@
-# Phasmorandomizer
+<img src="/img/logo.png" width=128px> <h1>Phasmorandomizer</h1>
 
 ~~The code is abysmal and not in a self-depricating way this time.~~ Actually kind of proud with how it looks now.
 
