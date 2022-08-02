@@ -5,5 +5,5 @@ Challenge = {
     'Autopilot Disengaged': 'Do not take photos, pick up bones, interact with cursed objects, or collect keys.',
     'Maid Dress Monday': 'Return all equipment brought in to the house.',
     'Analog Horror': 'Investigate using no electronic equipment.',
-    'That a bit sussy!': 'Sabotage your teammates to get them killed. Last one standing Wins. (2+ members required)',
+    'That\'s a bit sussy!': 'Sabotage your teammates to get them killed. Last one standing Wins. (2+ members required)',
 }
