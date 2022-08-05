@@ -1,3 +1,7 @@
+# Version 1.1.2
+  - Font face now integrated in main.css instead of index.html
+  - Difficulty text changes color based on difficulty
+
 # Version 1.1.1
   - Implimented button to vew changelog
   - Implimented button to submit challenges as issues on github

@@ -1,6 +1,10 @@
+@font-face {
+    font-family: 'OctoberCrow';
+    src:  url('../font/October_Crow.ttf')
+}
+
 * {
-    font-family: OctoberCrow;
-    
+    font-family: OctoberCrow; 
 }
 
 html {
@@ -98,6 +102,7 @@ button {
     border-left: 1px dashed;
     border-right: 1px dashed;
     border-color: rgba(255,255,255,0.3);
+    transition: color 0.5s ease;
 }
 
 .challenge {

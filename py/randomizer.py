@@ -26,7 +26,16 @@ def get_items(quantity):
 
     # Random Difficulty
     decided_diff = str(random.choice(Difficulty))
-
+    diff_div = js.document.getElementById("diff_div")
+    if decided_diff == 'Amateur':
+        diff_div.style.color = '#1cb2d2'
+    elif decided_diff == 'Intermediate':
+        diff_div.style.color = '#8dd21c'
+    elif decided_diff == 'Professional':
+        diff_div.style.color = '#ea8f36'
+    elif decided_diff == 'Nightmare':
+        diff_div.style.color = '#d74c4c'
+        
     # Debug
     pyscript.write("items_div", separator.join(map(str, decided_items)))
     pyscript.write("map_div", decided_map)
