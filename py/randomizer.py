@@ -1,7 +1,6 @@
 import js
 from js import alert
 import random
-from threading import Thread
 
 from equipment import Items, Maps, Difficulty
 from challenges import Challenge
