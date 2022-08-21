@@ -6,4 +6,4 @@ Threw this bad boy together in a few days. Fairly straight forward. You can inpu
 
 You can opt-out of any element of the randomizer if you want, I mean, I can't stop you so go for it lmao.
 
-This was my first project using PyScript, and I have to say I am infatuated with it. Python is the only language I somewhat have a grasp on, so JS and all that jazz was completely out of the question for me. This was initially just going to be a discord bot but I settled on using a website dispite having no real front-end experience. Having the option for python was a no brainer. This was a great learning experience for me to dip my toes into HTML and CSS!
+This was my first project using PyScript, and I have to say I am infatuated with it. Python is the only language I somewhat have a grasp on, so JS and all that jazz was completely out of the question for me. This was initially just going to be a discord bot but I settled on using a website despite having no real front-end experience. Having the option for python was a no brainer. This was a great learning experience for me to dip my toes into HTML and CSS!
