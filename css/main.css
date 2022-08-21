@@ -39,7 +39,6 @@ html {
 .submit {
     font-size: 36px;
     font-size: 4vh;
-
 }
 
 .version {
@@ -58,7 +57,12 @@ html {
     0%   {rotate:30deg; transform: scale(1)}
     50%  {rotate:10deg; transform: scale(1.5)}
     100% {rotate:30deg; transform: scale(1)}
-  }
+}
+
+a:hover {
+    color: rgb(0, 221, 85);
+    transition-duration: 1s;
+}
 
 .logo {
     max-width: 100%;
@@ -83,6 +87,11 @@ button {
     display: flex;
     flex: 1;
     flex-direction: column;
+}
+
+button:hover {
+    color: rgb(0, 221, 85);
+    transition-duration: 1s;
 }
 
 .inputquantity{
