@@ -1,3 +1,8 @@
+# Version 1.1.3
+  - Links and buttons now change color upon hovering
+  - Some challenges renamed
+  - Quantity now defaults at 0
+
 # Version 1.1.2
   - Font face now integrated in main.css instead of index.html
   - Difficulty text changes color based on difficulty
